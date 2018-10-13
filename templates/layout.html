@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<title> {% if this.title %}{% block title %}Welcome{% endblock %} — {% endif %}GrinDeg</title>
+<body>
+  <header>
+   <h1> {% if this._model != 'blog' %}<a href="{{ '/'|url }}">{% endif %}GrinDeg{% if this._model != 'blog' %}</a>{% endif %}</h1>
+  </header>
+  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+  <footer>
+    <a href="mailto:grindeg@yandex.ru">grindeg@yandex.ru</a>, <a href="https://instagram.com/nikitathegrapefruit">тыц</a>, <a href="https://grindeg.github.io">быц</a><br> 
+    Движок <a href="https://www.getlektor.com/">Lektor</a>. 
+  </footer>
+</body>
