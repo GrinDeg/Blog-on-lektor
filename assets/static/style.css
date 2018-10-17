@@ -21,6 +21,12 @@ blockquote {
    font-size: 12px;
 }
 
+.annotation{
+   font-size: 12px;
+   color: grey;
+   margin: 0 auto;
+}
+
 header, footer, div.page {
     width: 760px;
     margin: 0 auto;
