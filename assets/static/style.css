@@ -14,7 +14,9 @@ a:hover {
 }
 
 blockquote {
-    background: #d1d1d1;
+    background: #e2e2e2;
+    padding: 1px 10px;
+    font-size: 90%;
 }
 
 .meta{
